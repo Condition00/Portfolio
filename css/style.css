@@ -9,7 +9,6 @@ body {
   background-color: hsl(0, 0%, 12%);
   /* background: url(/images/y.jpg); */
   color: azure;
-  overflow-y: scroll;
   max-height: 10000px;
 }
 
@@ -260,7 +259,7 @@ section{
 }
 
 .about-content h1 {
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 -20px;
@@ -281,8 +280,10 @@ section{
 }
 
 .about-content p {
-  font-size: 16px;
-  margin: 20px 0 40px;
+  font-size: 17px;
+  margin: 20px 0px 40px;
+  text-wrap: pretty;
+  text-align: left;
 }
 
 .abt {
@@ -290,10 +291,12 @@ section{
   max-width: 10000px;
 }
 .abt img {
+  position: fixed;
   width: 1000;
   height: 500px;
   margin-left: 725px;
-  margin-bottom: 40px;
+  margin-bottom: -20px;
+  margin-top: 20px;
   filter: drop-shadow(12px 15px 200px rgb(109, 255, 128));
 }
 
@@ -339,3 +342,67 @@ section.about {
 .scroll-container::-webkit-scrollbar-track {
   background: #f1f1f1;
 } */
+
+.about-content .btn-box {
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: -300px;
+}
+
+.btn-box3 a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background: hsl(118, 100%, 57%);
+  border: 2px solid hsl(118, 100%, 67%);
+  border-radius: 8px;
+  font-size: 19px;
+  color: hsl(0, 0%, 12%);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.btn-box3 a:hover {
+  color: hsl(118, 100%, 57%);
+}
+
+.btn-box3 a:nth-child(2) {
+  background: hsl(0, 0%, 12%);
+  color: hsl(118, 100%, 57%);
+}
+
+.btn-box3 a:nth-child(2):hover {
+  color: hsl(0, 0%, 12%);
+}
+
+.btn-box3 a:nth-child(2)::before {
+  background: hsl(118, 100%, 57%);
+}
+
+.btn-box3 a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: hsl(0, 0%, 12%);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-box3 a:hover::before {
+  width: 100%;
+}
+
+.btn-box3 a:hover {
+  box-shadow: 0 0 30px rgb(94, 255, 116);
+}
