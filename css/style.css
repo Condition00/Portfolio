@@ -1,4 +1,7 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Germania+One&family=Marcellus&display=swap');
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -62,10 +65,15 @@ section.home {
 }
 
 .home-content h1 {
-  font-size: 56px;
+  font-size: 50px;
+  font-family: "Marcellus", serif;
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 -20px;
+}
+
+#name{
+  color: hsl(118, 100%, 62%);
 }
 
 .home-content h3 {
@@ -238,6 +246,8 @@ section.home {
   margin-left: -1200px;
   filter: drop-shadow(12px 15px 200px rgb(109, 255, 128));
 }
+
+
 
 /* .contain{
     scroll-snap-type: y mandatory;
