@@ -263,6 +263,9 @@
       width: 100%;
       max-width: 600px;
       padding: 0 20px;
+      margin-left: -520px;
+      margin-top: 70px;
+      margin-bottom: -400px;
   }
   .skill-name{
       font-size: 18px;
@@ -272,12 +275,12 @@
   }
   .skill-bar{
       height: 10px;
-      background-color:#44658e9c;
+      background-color:#000;
       border-radius: 8px;
   }
   .skill-per{
       height: 10px;
-      background-color: #000;
+      background-color: hsl(118, 100%, 62%);
       border-radius: 8px;
       width: 0;
       transition: 1s linear;
@@ -287,8 +290,8 @@
       content: attr(per);
       position: absolute;
       padding: 4px 6px;
-      background-color: #000;
-      color: #fff;
+      background-color: hsl(118, 100%, 62%);
+      color: #000;
       font-size:12px ;
       border-radius: 4px;
       top: -35px;
@@ -300,11 +303,17 @@
       position: absolute;
       width: 10px;
       height: 10px;
-      background-color: #000;
+      background-color: hsl(118, 100%, 62%);
       top: -18px;
       right: 0;
       transform: translateX(50%) rotate(45deg);
       border-radius: 2px;
   }
 
-        
+  .streak img {
+    margin-left: 200px;
+    margin-bottom: -305px;
+    border: transparent;
+  }
+
+  

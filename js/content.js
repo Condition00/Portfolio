@@ -3,3 +3,4 @@ $('.skill-per').each(function(){
     var per = $this.attr('per');
     $this.css("width",per+'%');
 });
+
