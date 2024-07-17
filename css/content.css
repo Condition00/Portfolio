@@ -15,6 +15,7 @@ body {
     color: azure;
     max-height: 10000px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .about {
@@ -470,6 +471,6 @@ main {
     padding: 0;
     margin-top: -33px;
     margin-left: -33px;
-    margin-right: -33px;
+    margin-right: -18px;
     margin-bottom: -33px;
 }
