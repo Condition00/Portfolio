@@ -9,22 +9,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto Condensed";
-  }
-  
-  body {
-    /* background-color: #1f1f1f; */
-    /* background: url(/images/y.jpg); */
+}
+
+body {
     color: azure;
     max-height: 10000px;
     overflow-y: scroll;
-  }
-  
-  .about {
+}
+
+.about {
     background-color: hsl(0, 0%, 12%);
     display: grid;
-  }
-  
-  .header {
+}
+
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -35,72 +33,73 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-  }
-  
-  .logo {
+}
+
+.logo {
     font-size: 24.5px;
     color: azure;
     text-decoration: none;
     font-weight: 600;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     font-size: 19px;
     color: azure;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-  }
-  
-  .navbar a:hover,
-  .navbar a:active {
+}
+
+.navbar a:hover,
+.navbar a:active {
     color: rgb(153, 153, 153);
-  }
+}
+
 /* abt content */
 .about-content {
     max-width: 600px;
     margin-left: 100px;
     margin-top: 120px;
     margin-bottom: 20px;
-  }
-  
-  .about-content h1 {
+}
+
+.about-content h1 {
     font-size: 55px;
     font-family: "Marcellus", serif;
     font-weight: 700;
     line-height: 1.2;
     margin: 0 0 -20px;
-  }
-  
-  .about-content h3 {
+}
+
+.about-content h3 {
     font-size: 35px;
     font-weight: 700;
     font-family: 'Germania One','system-ui';
     color: hsl(118, 100%, 62%);
     margin: 20px 0 20px;
-  }
-  
-  .about-content h3 span {
+}
+
+.about-content h3 span {
     color: hsl(118, 100%, 62%);
     font-size: 35px;
     font-weight: 700;
     margin: 20px 0 20px;
-  }
-  
-  .about-content p {
+}
+
+.about-content p {
     font-size: 17px;
     margin: 20px 0px 40px;
     text-wrap: pretty;
-    /* border: 1px solid #ff0000; */
     line-break: strict;
     text-align: left;
-  }
-  
-  .abt {
+}
+
+.abt {
     width: 100%;
     max-width: 1000px;
-  }
-  .abt img {
+}
+
+.abt img {
     position: relative;
     width: 1000;
     height: 500px;
@@ -108,21 +107,21 @@
     margin-top: -350px;
     display: block;
     filter: drop-shadow(12px 15px 200px rgb(109, 255, 128));
-  }
-  
-  .sk {
+}
+
+.sk {
     background-color: hsl(0, 0%, 10%);
     display: grid;
-  }
-  
-  .about-content .btn-box {
+}
+
+.about-content .btn-box {
     display: flex;
     justify-content: space-between;
     width: 345px;
     height: -300px;
-  }
-  
-  .btn-box3 a {
+}
+
+.btn-box3 a {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -140,26 +139,26 @@
     z-index: 1;
     overflow: hidden;
     transition: 0.5s;
-  }
-  
-  .btn-box3 a:hover {
+}
+
+.btn-box3 a:hover {
     color: hsl(118, 100%, 57%);
-  }
-  
-  .btn-box3 a:nth-child(2) {
+}
+
+.btn-box3 a:nth-child(2) {
     background: hsl(0, 0%, 12%);
     color: hsl(118, 100%, 57%);
-  }
-  
-  .btn-box3 a:nth-child(2):hover {
+}
+
+.btn-box3 a:nth-child(2):hover {
     color: hsl(0, 0%, 12%);
-  }
-  
-  .btn-box3 a:nth-child(2)::before {
+}
+
+.btn-box3 a:nth-child(2)::before {
     background: hsl(118, 100%, 57%);
-  }
-  
-  .btn-box3 a::before {
+}
+
+.btn-box3 a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -169,119 +168,308 @@
     background: hsl(0, 0%, 12%);
     z-index: -1;
     transition: 0.5s;
-  }
-  
-  .btn-box3 a:hover::before {
-    width: 100%;
-  }
-  
-  .btn-box3 a:hover {
-    box-shadow: 0 0 30px rgb(94, 255, 116);
-  }
+}
 
-  .skills-content {
+.btn-box3 a:hover::before {
+    width: 100%;
+}
+
+.btn-box3 a:hover {
+    box-shadow: 0 0 30px rgb(94, 255, 116);
+}
+/* about page over */
+/* skills page start */
+.skills-content {
     max-width: 600px;
-    margin-left: 550px;
+    margin-left: 570px;
     margin-top: 20px;
     margin-bottom: 450px;
-  }
-  
-  .skills-content h2 {
+}
+
+.skills-content h2 {
     font-size: 55px;
     font-family: "Marcellus", serif;
     font-weight: 700;
     line-height: 1.2;
     margin: 0 0 -20px;
     z-index: 1;
-  }
+    margin-left: 20px;
+}
 
-  .skills-content h2 span {
+.skills-content h2 span {
     color:hsl(118, 100%, 62%);
     font-family: "Marcellus", serif;
-  }
+}
 
-  .skills-content h1 {
+.skills-content h1 {
     opacity: 15%;
     z-index: -1;
     margin-bottom: -90px;
     font-size: 80px;
-    margin-left: -15px;
+    margin-left: 6px;
     color: hsl(118, 100%, 62%);
     font-family: "Anton SC", sans-serif;
     letter-spacing: 10px;
-  }
+}
 
-  /* .icons{
-    margin: 30px 0px 0;
+.skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    margin-left: -520px;
+    margin-top: 60px;
+    margin-bottom: -450px;
+}
+
+.skill-name {
+    font-family: "Marcellus", serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+    letter-spacing: 3px;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color:hsl(0, 0%, 10%);
+    border-radius: 8px;
+    border: .5px solid #3b3b3b;
+    width: 450px;
+}
+
+.skill-per {
+    height: 10px;
+    background-color: hsl(118, 100%, 62%);
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
     position: relative;
-    width: 150px;
-    height: 100%;
-    font-size: 40px;
-  }
+}
 
-  .icons img {
-    width: 60px; /* Set a specific width for the images, if needed */
-    /* height: auto; /* Maintain aspect ratio */
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: hsl(118, 100%, 62%);
+    color: #000;
+    font-size:12px ;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
 
-  .skills{
-      width: 100%;
-      max-width: 600px;
-      padding: 0 20px;
-      margin-left: -520px;
-      margin-top: 70px;
-      margin-bottom: -400px;
-  }
-  .skill-name{
-      font-family: "Marcellus", serif;
-      font-size: 15px;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin: 20px 0;
-      letter-spacing: 3px;
-  }
-  .skill-bar{
-      height: 10px;
-      background-color:hsl(0, 0%, 10%);
-      border-radius: 8px;
-      border: .5px solid #3b3b3b;
-      width: 450px;
-  }
-  .skill-per{
-      height: 10px;
-      background-color: hsl(118, 100%, 62%);
-      border-radius: 8px;
-      width: 0;
-      transition: 1s linear;
-      position: relative;
-  }
-  .skill-per::before{
-      content: attr(per);
-      position: absolute;
-      padding: 4px 6px;
-      background-color: hsl(118, 100%, 62%);
-      color: #000;
-      font-size:12px ;
-      border-radius: 4px;
-      top: -35px;
-      right: 0;
-      transform: translateX(50%)
-  }
-  .skill-per::after{
-      content: "";
-      position: absolute;
-      width: 10px;
-      height: 10px;
-      background-color: hsl(118, 100%, 62%);
-      top: -18px;
-      right: 0;
-      transform: translateX(50%) rotate(45deg);
-      border-radius: 2px;
-  }
+.skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: hsl(118, 100%, 62%);
+    top: -18px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
 
-  .streak img {
-    margin-left: 200px;
-    margin-bottom: -305px;
-    border: transparent;
-  }
+.skills h4{
+    font-size: 25px;
+    text-align: center;
+    margin-left: -150px;
+    margin-bottom: 30px;
+    text-rendering: geometricPrecision;
+    font-family: "Marcellus", serif;
+}
 
-  
+/* Circular Progress Bar Styles */
+
+.radial-bars{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.radial-bars .radial-bar{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.radial-bars .radial-bar svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radial-bars .radial-bar .progresss-bar{
+    stroke-width: 10;
+    stroke: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar{
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+
+.path{
+    stroke-width: 10;
+    stroke: hsl(118, 100%, 62%);
+    fill: transparent;
+    stroke-dashoffset: 502;
+    stroke-dasharray: 502;
+    stroke-linecap: round;
+}
+
+.path-1{animation: animate-path1 1s 1s linear forwards;}
+.path-2{animation: animate-path2 1s 1s linear forwards;}
+.path-3{animation: animate-path3 1s 1s linear forwards;}
+.path-4{animation: animate-path4 1s 1s linear forwards;}
+
+@keyframes animate-path1{
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+@keyframes animate-path2{
+    100%{
+        stroke-dashoffset: 175;
+    }
+}
+@keyframes animate-path3{
+    100%{
+        stroke-dashoffset: 125;
+    }
+}
+@keyframes animate-path4{
+    100%{
+        stroke-dashoffset: 75;
+    }
+}
+
+.radial-bar .percentage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText .5s 1s linear forwards;
+    color: azure;
+}
+
+.progresss-bar .text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText .5s 1s linear forwards;
+}
+
+.container{
+    margin-left: 500px;
+    margin-right: -240px;
+    margin-top: -387px;
+    margin-bottom: 0;
+}
+
+.container h5{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: -30px;
+    text-rendering: geometricPrecision;
+    font-family: "Marcellus", serif;
+}
+
+.p {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.p img {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 820px;
+    margin-top: -460px;
+    margin-bottom: 60px;
+    display: block;
+}
+
+/* skills page over */
+
+/* projects page */
+/* Container styling */
+main {
+    padding: 2rem 1rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #0E2431;
+}
+
+/* Work section styling */
+.work__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem; /* Adds gap between the grid items */
+    padding: 2rem;
+}
+
+.work__img {
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.work__img:hover {
+    transform: scale(1.05); /* Slightly scales up the entire image wrapper on hover */
+}
+
+.work__img img {
+    transition: transform 0.5s ease-in-out; /* Smooth transition for image scaling */
+    width: 100%; /* Ensures the image fills the container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.work__img img:hover {
+    transform: scale(1.1); /* Scales up the image on hover */
+}
+
+.section-title {
+    font-size: 55px;
+    font-family: "Marcellus", serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 -20px;
+    z-index: 1;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.work-section{
+    background-color: hsl(0, 0%, 8%);
+    padding: 0;
+    margin-top: -33px;
+    margin-left: -33px;
+    margin-right: -33px;
+    margin-bottom: -33px;
+}
