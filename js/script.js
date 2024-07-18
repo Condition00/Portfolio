@@ -5,5 +5,3 @@ var typed= new Typed("#text",{
     backDelay:1000,
     loop:true
 });
-
-ScrollReveal().reveal('.contain','.contain2');
