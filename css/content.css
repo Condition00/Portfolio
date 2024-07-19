@@ -52,7 +52,7 @@ body {
 }
 
 .navbar a:hover,
-.navbar a:active {
+.navbar a.active {
     color: rgb(153, 153, 153);
 }
 
