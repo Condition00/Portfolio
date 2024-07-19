@@ -784,3 +784,70 @@ textarea.input {
     background-color: hsl(0, 0%, 10%);
     display: grid;
 }
+
+/* footer */
+.footer {
+  position: fixed;
+  bottom: 0em;
+  left: 0;
+  height: 3.6em;
+  width: 100%;
+  padding: 25px;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.home-sci .footer {
+  top: 300px;
+  float: right;
+  margin-left: 30px;
+  position: absolute;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-sci a {
+  position: relative;
+  display: inline-flex;
+  width: 37px;
+  height: 37px;
+  background: transparent;
+  border: 2.1px solid hsl(118, 100%, 47%);
+  border-radius: 50%;
+  font-size: 25px;
+  color: hsl(118, 100%, 67%);
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.home-sci a:hover {
+  color: rgb(0, 1, 36);
+}
+
+.home-sci a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: hsl(118, 100%, 67%);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.home-sci a:hover::before {
+  width: 100%;
+}
+
+.home-sci a:hover {
+  box-shadow: 0 0 20px rgb(94, 255, 116);
+}
