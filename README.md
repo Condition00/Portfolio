@@ -5,7 +5,7 @@
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
 <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 
-###
+<hr>
 
 # Screenshots :
 ![image](https://github.com/user-attachments/assets/eeb88559-58ef-4790-aa0f-0cd1816509e7)
