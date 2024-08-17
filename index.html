@@ -12,17 +12,24 @@
     <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <a href="./" class="logo">⌘</a>
 
       <nav class="navbar">
-        <a href="./content" class="active">About</a> 
-        <a href="./content">Skills</a>
-        <a href="./content">Projects</a>
-        <a href="./content">Services</a>
-        <a href="./content">Contact</a>
+        <a href="# class="active">About</a> 
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
       </nav>
     </header>
     <!-- home section -->
@@ -44,6 +51,221 @@
         </section>
       </div>
     </div>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="about-content">
+          <h1>Personal Overview</h1>
+          <h3><span id="text2">I am a Programmer</span></h3>
+          <p>
+              I am Anant and I am currently pursuing my Computer Science Engineering degree at Vellore Institute of Technology - AP! I'm passionate about tech, communities, and everything in-between. I've worked a little on Android Development, Design, Arduino and Open Source. I really love to learn and contribute to the field in any and every possible way. Keep Learning!!
+          </p>
+          <div class="btn-box3">
+              <a href="#">Let's Talk!</a>
+          </div>
+          <div class="abt">
+              <img src="../images/s.png" alt="Profile Picture" />
+          </div>
+      </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="sk">
+      <div class="skills-content">
+          <h1 class="bg">SKILLS</h1>
+          <div>
+            <h2>My <span>Skills</span></h2>
+          </div>
+         
+          <div class="skills">
+              <h4>Technical Skills</h4>
+            <div class="skill">
+                <div class="skill-name">HTML-CSS :</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Javascript :</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="45"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Java :</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Photoshop :</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90"></div>
+                </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Illustrator :</div>
+              <div class="skill-bar">
+                  <div class="skill-per" per="80"></div>
+              </div>
+          </div>
+          
+          
+              <!-- <h5>Proffesional Skills</h5> -->
+          
+          <div class="container">
+              <h5>Proffesional Skills</h5>
+                  <div class="radial-bars">
+
+                      <div class="radial-bar">
+                          <svg x="0px" y="0px" viewBox="0 0 200 200">
+                              <circle class="progresss-bar" cx="100" cy="100" r="80"></circle>
+                              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                          </svg>
+                          <div class="percentage">90%</div>
+                          <div class="text1">Creativity</div>
+                      </div>
+                      <div class="radial-bar">
+                          <svg x="0px" y="0px" viewBox="0 0 200 200">
+                              <circle class="progresss-bar" cx="100" cy="100" r="80"></circle>
+                              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                          </svg>
+                          <div class="percentage">65%</div>
+                          <div class="text1">Communication</div>
+                      </div>
+                      <div class="radial-bar">
+                          <svg x="0px" y="0px" viewBox="0 0 200 200">
+                              <circle class="progresss-bar" cx="100" cy="100" r="80"></circle>
+                              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                          </svg>
+                          <div class="percentage">75%</div>
+                          <div class="text1">Teamwork</div>
+                      </div>
+                      <div class="radial-bar">
+                          <svg x="0px" y="0px" viewBox="0 0 200 200">
+                              <circle class="progresss-bar" cx="100" cy="100" r="80"></circle>
+                              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                          </svg>
+                          <div class="percentage">85%</div>
+                          <div class="text1">Problem Solving</div>
+                      </div>                 
+                  </div>
+          </div>
+         
+          <div class="p">
+          <img src="../images/chart1.png" alt="chart">
+          </div>
+      </div>
+  </section>
+  <!-- projects page start -->
+  <main>
+      <section class="work-section" id="work">
+          <h2 class="section-title">Projects</h2>
+  
+          <div class="work__container bd-grid">
+              <a href="#" class="work__img">
+                  <img src="../images/work1.jpg" alt="Project 1">
+              </a>
+              <a href="#" class="work__img">
+                  <img src="../images/work2.jpg" alt="Project 2">
+              </a>
+              <a href="#" class="work__img">
+                  <img src="../images/work3.jpg" alt="Project 3">
+              </a>
+              <a href="#" class="work__img">
+                  <img src="../images/work4.jpg" alt="Project 4">
+              </a>
+              <a href="#" class="work__img">
+                  <img src="../images/work5.jpg" alt="Project 5">
+              </a>
+              <a href="#" class="work__img">
+                  <img src="../images/work6.jpg" alt="Project 6">
+              </a>
+          </div>
+      </section>
+  </main>
+  <!-- project page over -->
+   <!-- contact me page -->
+   <section class="contact">
+      <div class="container1">
+          <span class="big-circle"></span>
+          <img src="img/shape.png" class="square" alt="" />
+          <div class="form">
+            <div class="contact-info">
+              <h3 class="title">Contact Me!</h3>
+              <p class="text">
+                Feel free to hit me a message, I will reply to you as soon as possible. Pls be patient:D
+              </p>
+    
+              <div class="info">
+                <div class="information">
+                  <img src="img/location.png" class="icon" alt="" />
+                  <p>VIT-AP Universty, Andhra Pradesh</p>
+                </div>
+                <div class="information">
+                  <img src="img/email.png" class="icon" alt="" />
+                  <p>kavuruanant@gmail.com</p>
+                </div>
+                <div class="information">
+                  <img src="img/phone.png" class="icon" alt="" />
+                  <p>+91___________</p>
+                </div>
+              </div>
+    
+              <div class="social-media">
+                <p>My Socials :</p>
+                <div class="social-icons">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-discord"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="contact-form">
+              <span class="circle one"></span>
+              <span class="circle two"></span>
+    
+              <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+                <h3 class="title">Contact Me</h3>
+                <div>
+                  <input type="hidden" name="access_key" value="9ce40c34-a231-45fd-8fc6-0af7c35ead82">
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" />
+                    <label for="">Username</label>
+                    <span>Username</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" />
+                    <label for="">Email</label>
+                    <span>Email</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" />
+                    <label for="">Phone</label>
+                    <span>Phone</span>
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Message</label>
+                    <span>Message</span>
+                  </div>
+                  <input type="submit" value="Send" class="btn" />
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+   </section>
 
     <footer class="footer">
       <div class="home-sci">
