@@ -45,6 +45,10 @@ section.home {
   font-weight: 600;
 }
 
+.logo span {
+  color: hsl(118, 100%, 62%);
+}
+
 .navbar a {
   font-size: 19px;
   color: azure;
