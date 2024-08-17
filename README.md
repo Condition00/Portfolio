@@ -5,7 +5,8 @@
 2. Javascript for small animations
 
 # Screenshots :
-![image](https://github.com/user-attachments/assets/8a1f45ec-5ee3-45b8-b4ea-4830b86358ce)
+![image](https://github.com/user-attachments/assets/eeb88559-58ef-4790-aa0f-0cd1816509e7)
+
 
 # under development.
 
