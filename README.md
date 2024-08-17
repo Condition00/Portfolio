@@ -4,7 +4,10 @@
 1. Html - CSS
 2. Javascript for small animations
 
-# Code is not organised currently.
+# Screenshots :
+![image](https://github.com/user-attachments/assets/8a1f45ec-5ee3-45b8-b4ea-4830b86358ce)
+
+# under development.
 
 # Star the repo lol
 # fork this repo to make it yours 
