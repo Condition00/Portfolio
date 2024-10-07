@@ -1,0 +1,9 @@
+version: '3'
+services:
+  portfolio:
+    image: nginx:latest
+    container_name: portfolio_website
+    volumes:
+      - ../:/usr/share/nginx/html
+    ports:
+      - "8080:80"
