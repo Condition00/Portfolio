@@ -1,5 +1,8 @@
 # Personal Portfolio Website
 ###
+
+# Pure css website
+
 # Built using :
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
@@ -25,5 +28,4 @@
 
 # under development.
 
-# Star the repo lol
-# fork this repo to make it yours 
+# Star the repository to make me feel motivated.
